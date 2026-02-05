@@ -1,80 +1,32 @@
-🌾 AgroLink – Farmer & Buyer Connection Platform
+⭐ AgroLink – Farmer & Buyer Connection Platform
 
-AgroLink is a full-stack web application designed to connect farmers and buyers directly, enabling transparent product listing, easy access, and fair trade using modern web technologies.
+AgroLink is a full-stack web application that connects farmers and buyers directly, enabling transparent product listing, easy access, and fair trade using modern web technologies.
 
-This project focuses on backend–frontend integration, authentication, and real-world role-based dashboards, making it suitable for academic projects, internships, and entry-level placements.
+This project focuses on backend–frontend integration, JWT authentication, and role-based dashboards, making it suitable for academic projects, internships, and entry-level placements.
 
-✨ Features
+⭐ Features
 
-👨‍🌾 Farmer Dashboard – Manage and list agricultural products
+Farmer Dashboard – Manage and list agricultural products
 
-🧑‍💼 Buyer Dashboard – Browse and view available products
+Buyer Dashboard – Browse and view available products
 
-🔐 Secure Login & Authentication using JWT
+Secure Login & Authentication using JWT
 
-📦 Product Listing & Management
+Product Listing & Management
 
-🔄 API-based Frontend–Backend Communication
+API-based Frontend–Backend Communication
 
+⭐ Tech Stack
 
-🚀 Tech Stack
-🔹 Backend
+Backend
+FastAPI (Python)
+SQLite Database
+JWT Authentication
 
-⚡ FastAPI (Python)
-
-🗄️ SQLite Database
-
-🔐 JWT Authentication
-
-🔹 Frontend
-
-⚛️ React (Vite)
-
-🎨 CSS
-
-🌐 REST API Integration
-
-
-▶️ How to Run the Project
-🖥️ Backend Setup
-python -m venv venv
-venv\Scripts\activate   # Windows
-pip install -r requirements.txt
-
-uvicorn app.main:app --reload
-Backend will run at:
-👉 http://127.0.0.1:8000
-
-
-🌐 Frontend Setup
-cd frontend/agrolink-frontend
-npm install
-npm run dev
-
-
-🔮 Future Enhancements
-
-🤖 AI-based crop price prediction
-
-📊 Demand forecasting using Machine Learning
-
-🌱 Smart farmer recommendation system
-
-💳 Payment gateway integration
-
-📱 Mobile application support
-
-Frontend will run at:
-👉 http://localhost:5173
-
-
-👩‍💻 Developer
-
-Rakshitha R
-💻 Full-Stack Developer (FastAPI + React)
-🎯 Interested in Backend, AI & Data-Driven Systems
-
-⭐ If you find this project useful, consider giving it a star!
+Frontend
+React (Vite)
+CSS
+REST API Integration
 
 
 ## 📂 Project Structure
@@ -95,5 +47,38 @@ AGROLINK/
 ├── .gitignore
 └── README.md
 ```
+⭐ How to Run the Project
+Backend
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn app.main:app --reload
 
 
+Runs at:
+
+http://127.0.0.1:8000
+
+Frontend
+cd frontend/agrolink-frontend
+npm install
+npm run dev
+
+
+Runs at:
+
+http://localhost:5173
+
+⭐ Future Enhancements
+
+AI-based crop price prediction
+Demand forecasting using Machine Learning
+Smart farmer recommendation system
+Payment gateway integration
+Mobile application support
+
+⭐ Developer
+
+Rakshitha R
+Full-Stack Developer (FastAPI + React)
+Interested in Backend, AI & Data-Driven Systems
