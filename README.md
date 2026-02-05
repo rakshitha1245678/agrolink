@@ -25,15 +25,15 @@ AgroLink is a full-stack web application designed to connect farmers and buyers 
 
 📂 Project Structure
 AGROLINK/
-│── app/                  # FastAPI backend
-│   ├── models/
-│   ├── routes/
-│   ├── schemas/
-│   ├── utils/
-│   └── main.py
+│── app/ # FastAPI backend
+│ ├── models/
+│ ├── routes/
+│ ├── schemas/
+│ ├── utils/
+│ └── main.py
 │
 │── frontend/
-│   └── agrolink-frontend/ # React frontend
+│ └── agrolink-frontend/ # React frontend
 │
 │── requirements.txt
 │── .gitignore
